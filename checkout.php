@@ -111,7 +111,7 @@ include('./include/header.php')
             <div class="form-check first d-flex align-items-center gap-20">
               <input class="form-check-input mt-0" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
               <label class="form-check-label fs-21 fw-500 light-black" for="flexRadioDefault1">
-                Cash on delivery <span class="grey-600 fw-300 ml-22">Pay with cash upon delivery.</span>
+                Cash on delivery <span class="grey-600 paycash-text fw-300 ml-22">Pay with cash upon delivery.</span>
               </label>
             </div>
             <div class="form-check d-flex align-items-center gap-20">

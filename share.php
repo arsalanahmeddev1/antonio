@@ -94,7 +94,7 @@ include('./include/header.php')
                   <button class="fs-35 fw-600 border-0 bg-transparent border-bottom border-black border-2" type="submit">Submit</button>
                 </div>
                 <div class="flex-grow-1 text-center">
-                  <button class="fs-35 fw-600 border-0 bg-transparent border-bottom border-black border-2">Cacel</button>
+                  <button class="fs-35 fw-600 border-0 bg-transparent border-bottom border-black border-2">Cancel</button>
                 </div>
               </div>
             </div>
@@ -122,16 +122,17 @@ include('./include/header.php')
             </div>
           </div>
           <div class="col-md-12 mt-60">
-          <label for="" class="lable-field">Message .</label>
-          <textarea name="" id="" class="textarea w-100" placeholder="Write your Message"></textarea>
-          <button class="btn-black sug-submit-btn w-100 border-0 mt-50" style="max-width: 33rem">Submit</button>
+            <label for="" class="lable-field">Message .</label>
+            <textarea name="" id="" class="textarea w-100" placeholder="Write your Message"></textarea>
+            <button class="btn-black sug-submit-btn w-100 border-0 mt-50" style="max-width: 33rem">Submit</button>
           </div>
         </div>
       </form>
     </div>
   </div>
   <main class="share-page-marque-slider pt-80">
-  <?php include('./include/marque-sec.php') ?>
+    <?php include('./include/marque-sec.php') ?>
   </main>
-  <?php include('./include/footer.php') ?>
-  <?php include('./include/scripts.php') ?>
+</section>
+<?php include('./include/footer.php') ?>
+<?php include('./include/scripts.php') ?>

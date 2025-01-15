@@ -56,7 +56,7 @@ include('./include/header.php')
       </div>
       <div class="col-md-8">
         <div class="lg-card mb-100">
-          <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex flex-wrap justify-content-between align-items-center">
             <div class="d-flex align-items-center">
               <span class="fs-24 pr-10" style="color: #848484;">Paginate by </span>
               <select class="" name="" id="">
@@ -79,8 +79,8 @@ include('./include/header.php')
           </div>
         </div>
         <div class="row row-gap-60">
-          <div class="col-md-4">
-            <div class="product-card h-auto  card mx-0 justify-content-start">
+          <div class="col-md-6 col-lg-4 col-sm-6 col-12">
+            <div class="product-card h-auto  card mxauto0 justify-content-start">
               <div class="card-inner mb-18">
                 <div class="card-front">
                   <img src="./assets/images/product-front-img-01.png" alt="" loading="lazy">
@@ -102,8 +102,8 @@ include('./include/header.php')
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="product-card h-auto card mx-0 justify-content-start">
+          <div class="col-md-6 col-lg-4 col-sm-6 col-12">
+            <div class="product-card h-auto card mx-auto justify-content-start">
               <div class="card-inner mb-18">
                 <div class="card-front">
                   <img src="./assets/images/product-front-img-01.png" alt="" loading="lazy">
@@ -125,8 +125,8 @@ include('./include/header.php')
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="product-card h-auto card mx-0 justify-content-start">
+          <div class="col-md-6 col-lg-4 col-sm-6 col-12">
+            <div class="product-card h-auto card mx-auto justify-content-start">
               <div class="card-inner mb-18">
                 <div class="card-front">
                   <img src="./assets/images/product-front-img-01.png" alt="" loading="lazy">
@@ -148,8 +148,8 @@ include('./include/header.php')
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="product-card h-auto card mx-0 justify-content-start">
+          <div class="col-md-6 col-lg-4 col-sm-6 col-12">
+            <div class="product-card h-auto card mx-auto justify-content-start">
               <div class="card-inner mb-18">
                 <div class="card-front">
                   <img src="./assets/images/product-front-img-01.png" alt="" loading="lazy">
@@ -171,8 +171,8 @@ include('./include/header.php')
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="product-card h-auto card mx-0 justify-content-start">
+          <div class="col-md-6 col-lg-4 col-sm-6 col-12">
+            <div class="product-card h-auto card mx-auto justify-content-start">
               <div class="card-inner mb-18">
                 <div class="card-front">
                   <img src="./assets/images/product-front-img-01.png" alt="" loading="lazy">
@@ -194,8 +194,8 @@ include('./include/header.php')
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="product-card h-auto card mx-0 justify-content-start">
+          <div class="col-md-6 col-lg-4 col-sm-6 col-12">
+            <div class="product-card h-auto card mx-auto justify-content-start">
               <div class="card-inner mb-18">
                 <div class="card-front">
                   <img src="./assets/images/product-front-img-01.png" alt="" loading="lazy">
@@ -217,7 +217,7 @@ include('./include/header.php')
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-12">
             <nav aria-label="Page navigation example">
               <ul class="pagination custom-pagination gap-8">
                 <li class="page-item">
@@ -243,7 +243,7 @@ include('./include/header.php')
         <h3 class="fs-50 fw-500 mb-60">what other products would you like</h3>
         <form action="">
           <div class="row suggestion-form">
-            <div class="col-md-6">
+            <div class="col-md-6 mb-30 mb-lg-0">
               <div class="d-flex gap-20 align-items-end">
                 <label for="" class="lable-field mb-0">Name.</label>
                 <input type="text" class="input-field" placeholder="Your Name">

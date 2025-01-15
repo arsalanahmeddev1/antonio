@@ -20,7 +20,7 @@ include('./include/header.php')
 <section class="prod-details-sec-1 pt-140 pb-150">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-6 mb-40 mb-lg-0">
         <div class="product-details-card">
           <div class="card-wrapper">
             <!-- card left -->
@@ -183,8 +183,8 @@ include('./include/header.php')
       <div class="diamond-border"></div>
     </div>
     <div class="row row-xl-cols-5 row-gap-20 align-items-center">
-      <div class="col-6 col-md-4 col-lg-4 col-xl ">
-        <div class="product-card card">
+      <div class="col-12 col-md-6 col-lg-4 col-xl ">
+        <div class="product-card card h-auto">
           <div class="card-inner mb-18">
             <div class="card-front">
               <img src="./assets/images/product-front-img-01.png" alt="" loading="lazy">
@@ -206,8 +206,8 @@ include('./include/header.php')
           </div>
         </div>
       </div>
-      <div class="col-6 col-md-4 col-lg-4 col-xl ">
-        <div class="product-card card">
+      <div class="col-12 col-md-6 col-lg-4 col-xl ">
+        <div class="product-card card h-auto">
           <div class="card-inner mb-18">
             <div class="card-front">
               <img src="./assets/images/product-front-img-01.png" alt="" loading="lazy">
@@ -229,8 +229,8 @@ include('./include/header.php')
           </div>
         </div>
       </div>
-      <div class="col-6 col-md-4 col-lg-4 col-xl ">
-        <div class="product-card card">
+      <div class="col-12 col-md-6 col-lg-4 col-xl ">
+        <div class="product-card card h-auto">
           <div class="card-inner mb-18">
             <div class="card-front">
               <img src="./assets/images/product-front-img-01.png" alt="" loading="lazy">
@@ -252,8 +252,8 @@ include('./include/header.php')
           </div>
         </div>
       </div>
-      <div class="col-6 col-md-4 col-lg-4 col-xl ">
-        <div class="product-card card">
+      <div class="col-12 col-md-6 col-lg-4 col-xl ">
+        <div class="product-card card h-auto">
           <div class="card-inner mb-18">
             <div class="card-front">
               <img src="./assets/images/product-front-img-01.png" alt="" loading="lazy">
@@ -275,8 +275,8 @@ include('./include/header.php')
           </div>
         </div>
       </div>
-      <div class="col-6 col-md-4 col-lg-4 col-xl ">
-        <div class="product-card card">
+      <div class="col-12 col-md-6 col-lg-4 col-xl ">
+        <div class="product-card card h-auto">
           <div class="card-inner mb-18">
             <div class="card-front">
               <img src="./assets/images/product-front-img-01.png" alt="" loading="lazy">

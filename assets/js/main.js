@@ -134,41 +134,44 @@ $('.blogs-slider').slick({
     }
   ]
 });
+// more saying slider
 
 
-// share slider
-// $('.share-slider').slick({
-//   dots: true,
-//   infinite: false,
-//   speed: 300,
-//   slidesToShow: 3,
-//   // centerMode: true,
-//   slidesToScroll: 1,
-//   prevArrow: $('.share-slider-arrows .left-arrow-03'),
-//   nextArrow: $('.share-slider-arrows .right-arrow-03'),
-//   responsive: [
-//     {
-//       breakpoint: 1025,
-//       settings: {
-//         slidesToShow: 2,
-//         infinite: true,
-//         dots: true
-//       }
-//     },
-//     {
-//       breakpoint: 600,
-//       settings: {
-//         slidesToShow: 1,
-//       }
-//     },
-//     {
-//       breakpoint: 481,
-//       settings: {
-//         slidesToShow: 1,
-//       }
-//     }
-//   ]
-// });
+$('.more-saying-slider').each(function () {
+  const $slider = $(this);
+  const $parent = $slider.closest('.container'); // Parent container for the slider
+
+  $slider.slick({
+    dots: false,
+    infinite: false,
+    slidesToShow: 4,
+    arrows: true,
+    slidesToScroll: 1,
+    prevArrow: $parent.find('.prev'),
+    nextArrow: $parent.find('.next'),
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 756,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
+  });
+});
+
 
 
 $('.share-slider').on('afterChange', function (event, slick, currentSlide) {
@@ -312,13 +315,14 @@ const decreaseButton = document.querySelector('.decrease-btn');
 function updateQuantity(value) {
   quantityInput.value = value;
 }
-
-increaseButton.addEventListener('click', () => {
-  let currentQuantity = parseInt(quantityInput.value);
-  currentQuantity++;
-  updateQuantity(currentQuantity);
-});
-
+if(increaseButton) {
+  increaseButton.addEventListener('click', () => {
+    let currentQuantity = parseInt(quantityInput.value);
+    currentQuantity++;
+    updateQuantity(currentQuantity);
+  });
+}
+if(decreaseButton) {
 decreaseButton.addEventListener('click', () => {
   let currentQuantity = parseInt(quantityInput.value);
   if (currentQuantity > 0) {
@@ -326,3 +330,4 @@ decreaseButton.addEventListener('click', () => {
     updateQuantity(currentQuantity);
   }
 });
+}

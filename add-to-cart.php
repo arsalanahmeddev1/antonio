@@ -66,7 +66,7 @@ include('./include/header.php')
           </tbody>
         </table>
         <div class="row justify-content-between">
-          <div class="col-lg-6">
+          <div class="col-lg-6 mb-16 mb-lg-0">
             <div class="coupen-wrapper d-flex justify-content-between align-items-center position-relative">
               <img src="./assets/images/coupen.svg" class="coupen-img position-absolute translate-middle-y top-50" alt="">
               <input type="number" class="fs-18 border-0" placeholder="Coupon Code">
@@ -108,7 +108,9 @@ include('./include/header.php')
                   </tr>
                 </tbody>
               </table>
-              <button class="btn-black sug-submit-btn radius-60 w-100 border-0" style="font-weight: 500;">Proceed to checkout</button>
+              <div class="d-flex text-center">
+              <a href="./checkout.php" class="btn-black sug-submit-btn radius-60 w-100 border-0" style="font-weight: 500;">Proceed to checkout</a>
+              </div>
             </div>
           </div>
         </div>

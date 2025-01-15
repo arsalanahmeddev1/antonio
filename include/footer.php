@@ -20,23 +20,17 @@
         <div class="col-lg-3">
           <h3 class="fw-700 fs-21 text-white mb-34">Quick Links</h3>
           <ul class="footer-links">
-            <li><a href="javascript:;">About Us</a></li>
-            <li><a href="javascript:;">FAQ’s</a></li>
-            <li><a href="javascript:;">Terms Of Service</a></li>
-            <li><a href="javascript:;">Privacy policy</a></li>
-            <li><a href="javascript:;">Our Services</a></li>
-            <li><a href="javascript:;">Latest Blog</a></li>
+            <li><a href="./sayings.php">Sayings</a></li>
+            <li><a href="./more-saying.php">More Sayings</a></li>
+            <li><a href="./our-story.php">Our Story</a></li>
+            <li><a href="./share.php">Share</a></li>
           </ul>
         </div>
         <div class="col-lg-3">
           <h3 class="fw-700 fs-21 text-white mb-34">Our Services</h3>
           <ul class="footer-links">
-            <li><a href="javascript:;">Offset Printing</a></li>
-            <li><a href="javascript:;">Business Card</a></li>
-            <li><a href="javascript:;">Design & Branding</a></li>
-            <li><a href="javascript:;">3D Design & Printing</a></li>
-            <li><a href="javascript:;">Mug Printing</a></li>
-            <li><a href="javascript:;">T-Shirt Printing</a></li>
+            <li><a href="./products.php">Products</a></li>
+            <li><a href="./collections.php">Collections</a></li>
           </ul>
         </div>
         <div class="col-lg-2">
